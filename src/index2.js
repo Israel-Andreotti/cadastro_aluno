@@ -31,9 +31,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       });
     }
-
     atualizarLista(); // Inicializa a lista
   } else {
     console.error('Elemento com ID "listaAlunos" não encontrado no DOM.');
   }
 });
+
+
+const deleteAll = document.getElementById("deleteAll");
+
+deleteAll.addEventListener("click",  () => {
+  alert("Tem certeza que deseja apagar todos os dados?");
+  localStorage.clear();
+  alunos = [];
+  window.location.reload(false);
+  atualizarLista();
+})

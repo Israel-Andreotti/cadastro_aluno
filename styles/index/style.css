@@ -50,7 +50,7 @@ form input:focus::placeholder {
   color: transparent
 }
 
-button{
+.submit {
   margin-top: 1.5rem;
   background-color: white;
   padding-block: 1rem;
@@ -60,8 +60,27 @@ button{
   margin: auto;
 }
 
-button:hover {
+.submit:hover {
   background-color: rgb(219, 219, 219);
   cursor: pointer;
+}
+
+.visu {
+  position: absolute;
+  top: 25px;
+  width: 150px;
+  margin-left: 30px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.visu a {
+  color: white;
+  text-decoration: none;
+}
+
+.visu a:hover {
+  color: rgb(208, 208, 209);
 }
 

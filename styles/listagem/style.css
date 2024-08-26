@@ -30,13 +30,13 @@ ul {
 
 li {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   border: 2px solid white;
   border-radius: 10px;
   padding: 1rem;
   background-color: rgba(221, 221, 221, 0.3);
   /* transition: transform 0.1s ease-in, box-shadow 0.1s ease; */
-  margin-block: 1rem;
+  margin-block: 1.2rem;
 }
 
 .all {
@@ -45,9 +45,11 @@ li {
   gap: 1rem
 }
 
-/* li:hover {
-  transform: scale(1.1);
-} */
+li:hover {
+  /* transform: scale(1.1); */
+  background-color: rgba(34, 38, 119, 0.6);
+  cursor: pointer
+}
 
 span:hover {
   cursor: pointer;
@@ -67,4 +69,26 @@ span:hover {
 button:hover {
   background-color: rgb(219, 219, 219);
   cursor: pointer;
+}
+
+.deleteAll {
+  position: absolute;
+  top: 25px;
+  left: 1324px;
+  width: 150px;
+  margin-left: 30px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: .6rem;
+  font-size: 1.1rem;
+  transition: ease .3s;  
+}
+
+.deleteAll:hover {
+  background-color: transparent;
+  color: rgb(210, 203, 203)
 }
