@@ -10,11 +10,13 @@
 
 <h4>Conceitos Praticados</h4>
 <ul>
-  <li>HTML<li>
+  <li>HTML</li>
   <li>CSS</li>
-  <li>Javascript<li>
+  <li>Javascript</li>
   <li>Manipulação de DOM</li>
-  <li>Local Storage<li>
+  <li>Local Storage</li>
   <li>HTML Forms</li>
-  <li>Opeações de Create e Delete (CRUD)<li>
+  <li>Opeações de Create e Delete (CRUD)</li>
 </ul>
+
+<p>Futuramente pretendo evoluir esse sistema para usar o banco de dados postGRES.</p>
