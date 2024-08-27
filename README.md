@@ -4,7 +4,7 @@
 <p>Esse é um projeto para cadastrar uma pessoa em um sistema e em outra aba ser possível visualizar a lista de pessoas inscritas contando com uma opção de remover pessoas da lista</p>
 
 <h4>Objetivo</h4>
-<P>Esse projeto foi desenvovlido para praticar aprender mais sobre local storage, manipulação de DOM, HTML Forms e Css</P>
+<P>Esse projeto foi desenvovlido para praticar aprender mais sobre local storage, manipulação de DOM, HTML Forms e CSS</P>
 
 <p>P.S esse projeto ainda não está responsivo, funcionando apenas em Desktops no momento</p>
 
