@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const deleteAll = document.getElementById("deleteAll");
 
 deleteAll.addEventListener("click",  () => {
-  confirm("Tem certeza que deseja deletas todos os itens?")
+  confirm("Tem certeza que deseja deletar todos os itens?")
   localStorage.clear();
   alunos = [];
   window.location.reload(false);
