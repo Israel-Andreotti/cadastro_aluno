@@ -68,17 +68,27 @@ form input:focus::placeholder {
 .visu {
   position: absolute;
   top: 25px;
-  width: 150px;
+  width: 200px;
   margin-left: 30px;
   background-color: transparent;
   border: none;
   font-size: 1.1rem;
+  display: flex;
+  align-items: center; /* Alinha os elementos verticalmente */
+  color: white
 }
 
 .visu a {
-  color: white;
   text-decoration: none;
+  color: inherit; /* Mantém a cor do texto */
+  display: flex;
+  align-items: center; /* Alinha o ícone e o texto no centro verticalmente */
 }
+
+.visu span.material-symbols-outlined {
+  margin-right: 8px; /* Adiciona um espaçamento entre o ícone e o texto */
+}
+
 
 .visu a:hover {
   color: rgb(208, 208, 209);

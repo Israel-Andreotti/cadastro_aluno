@@ -10,14 +10,14 @@ document.addEventListener('DOMContentLoaded', function() {
       alunos.forEach(function(aluno, index) {
         const li = document.createElement('li');
         li.innerHTML = `
-          <div class="all">
+          <div> 
             <p class="name">Nome: ${aluno.nome}</p>
             <p class="age">Idade: ${aluno.idade}</p>
             <p class="month">Mês de Nascimento: ${aluno.mesNascimento}</p>
             <p class="year">Ano de nascimento: ${aluno.anoNascimento}</p>
-            <span class="material-symbols-outlined delete-icon" data-index="${index}">delete</span>
-          </div>
-        `;
+          </div>   
+          <span class="material-symbols-outlined delete-icon" data-index="${index}">delete</span>
+        `;;
         listaAlunos.appendChild(li);
       });
 
@@ -41,9 +41,11 @@ document.addEventListener('DOMContentLoaded', function() {
 const deleteAll = document.getElementById("deleteAll");
 
 deleteAll.addEventListener("click",  () => {
-  alert("Tem certeza que deseja apagar todos os dados?");
+  confirm("Tem certeza que deseja deletas todos os itens?")
   localStorage.clear();
   alunos = [];
   window.location.reload(false);
   atualizarLista();
-})
+});
+
+
