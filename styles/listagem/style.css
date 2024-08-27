@@ -21,10 +21,26 @@ h1 {
 }
 
 hr {
-  
   margin: auto;
   width: 80%;
 }
+
+/* .empty-list-visible {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  margin: 2rem;
+  display: visible;
+}
+
+.empty-list-hidden {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  margin: 2rem;
+  display: hidden;
+} */
+
 .container {
   margin-inline: 10vw;
   margin-top: 2rem;

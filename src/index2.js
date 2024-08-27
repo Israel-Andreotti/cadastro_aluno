@@ -48,4 +48,12 @@ deleteAll.addEventListener("click",  () => {
   atualizarLista();
 });
 
+const emptyList = document.getElementById("empty-list");
+
+// if (alunos != null) {
+//   emptyList.classList.add('.empty-list-visible')
+// } else {
+//   emptyList.classList.add('.empty-list-hidden')
+// }
+
 
